@@ -9,8 +9,7 @@ body {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  border-left:solid black ;
 }
 
 .jumbotron {
@@ -28,6 +27,7 @@ body {
 .time-block{
   text-align: center;
   border-radius: 15px;
+  width: 100%;
 }
 
 .row {
@@ -41,6 +41,7 @@ body {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  width: 10%;
 }
 
 .list-group-item{
@@ -50,16 +51,17 @@ width: 80%;
 .textarea{
   width: 90%;
 }
-
+/*Colour applied to past row*/
 .past {
   background-color: #d3d3d3;
   color: white;
 }
-
+/*Colour applied to present row*/
 .present {
   background-color: #ff6961;
   color: white;
 }
+/*Colour applied to future row*/
 
 .future {
   background-color: #77dd77;
@@ -71,11 +73,41 @@ width: 80%;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
+  width: 50px;
   color: white;
   
 }
-
+/*Class applied to change colour on button on hover states */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+
+@media (max-width: 767px){
+  .row {
+   height: 70px;
+   }
+
+   .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    width: 70px;
+    height: 50px;
+    color: white;
+    
+  }
+
+  .hour {
+    width: 65px;
+  }
+
+}
+
+@media (max-width: 354px){
+   .hour {
+       width: 5px;
+  }
 }

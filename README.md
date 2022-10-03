@@ -21,4 +21,4 @@ I then learn to apply states or classes to these created dynamically created row
 The license used for this webapp is the MIT license. Please refer to license details in this repository. 
 
 Please feel free to review my app at the deployed link: 
-
+ https://kay-annn.github.io/My-Amazing-Daily-Planner/

@@ -35,7 +35,6 @@ for (i = 0; i < hours.length; i++) {
     } else {
         liContainer.className = "list-group-item d-flex justify-content-between future"
     }
-
     var inputTask = document.createElement('input')
     inputTask.className = "textarea"
     inputTask.id = hours[i].time + "input"
@@ -43,7 +42,8 @@ for (i = 0; i < hours.length; i++) {
     inputTask.value = localStorage.getItem(hours[i].time)
 
     var buttonSave = document.createElement('button')
-    buttonSave.className = "btn btn-primary saveBtn"
+    buttonSave.className = "btn btn-primary saveBtn i:hover"
+    buttonSave.textContent = "save \uF524" 
     buttonSave.id = hours[i].time
     buttonSave.onclick = function (event) {
         var inputValue = document.getElementById(event.target.id + "input").value
@@ -58,7 +58,3 @@ for (i = 0; i < hours.length; i++) {
     liContainer.appendChild(inputTask)
     liContainer.appendChild(buttonSave)
 }
-
-
-//Get reference to save button in HTML
-//Create a function that gets value from user input and set item to local storage

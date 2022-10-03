@@ -7,7 +7,8 @@ The rows are also colour coordinated to show red for a present time, green for a
 
 The following image displays the calendar with the current date and grey row due to the times being in the past. 
 
-[Screenshot image of calendar app](./asset/Calendar-web-app.png)
+![Calendar-web-app](https://user-images.githubusercontent.com/56706010/193699268-337ba749-a9f5-4b43-bd25-d8bcd200daae.png)
+
 
 ## What did I learn?
 I learn how to incorporate moment.js in a webapp to display time and reflect current past and present time. 
